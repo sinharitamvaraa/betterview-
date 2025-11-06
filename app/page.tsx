@@ -1,7 +1,7 @@
 "use client";
 
 import { SettingsProvider } from "@/lib/settings-provider";
-//import { /*RealtimeAudio*/ } from "@/components/Screenpipe/realtime-audio";
+// import { RealtimeAudio } from "@/components/Screenpipe/realtime-audio";
 import Camera from "@/components/Camera/Camera";
 import { MetricsProvider } from "@/context/MetricsContext";
 import {
@@ -16,7 +16,7 @@ export default function Page() {
       <MetricsProvider>
         <ResizablePanelGroup direction="horizontal">
           <ResizablePanel>
-            <RealtimeAudio />
+            {/* <RealtimeAudio /> */}
           </ResizablePanel>
           <ResizableHandle />
           <ResizablePanel>
